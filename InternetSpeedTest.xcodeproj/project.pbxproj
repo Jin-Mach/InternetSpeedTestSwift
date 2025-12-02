@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6044E892EDF561A009D3C5F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A6044E882EDF560F009D3C5F /* README.md */; };
+		A6044E8D2EDF592C009D3C5F /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = A6044E8C2EDF5922009D3C5F /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A601FBEE2EDC6A12001B86C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A601FBD82EDC6A11001B86C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A601FBDF2EDC6A11001B86C4;
+			remoteInfo = InternetSpeedTest;
+		};
+		A601FBF82EDC6A12001B86C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A601FBD82EDC6A11001B86C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A601FBDF2EDC6A11001B86C4;
+			remoteInfo = InternetSpeedTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A601FBE02EDC6A11001B86C4 /* InternetSpeedTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetSpeedTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A601FBED2EDC6A12001B86C4 /* InternetSpeedTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InternetSpeedTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A601FBF72EDC6A12001B86C4 /* InternetSpeedTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InternetSpeedTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6044E882EDF560F009D3C5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.md; sourceTree = "<group>"; };
+		A6044E8C2EDF5922009D3C5F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A601FBE22EDC6A11001B86C4 /* InternetSpeedTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InternetSpeedTest;
+			sourceTree = "<group>";
+		};
+		A601FBF02EDC6A12001B86C4 /* InternetSpeedTestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InternetSpeedTestTests;
+			sourceTree = "<group>";
+		};
+		A601FBFA2EDC6A12001B86C4 /* InternetSpeedTestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InternetSpeedTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A601FBDD2EDC6A11001B86C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A601FBEA2EDC6A12001B86C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A601FBF42EDC6A12001B86C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A601FBD72EDC6A11001B86C4 = {
+			isa = PBXGroup;
+			children = (
+				A6044E8C2EDF5922009D3C5F /* LICENSE */,
+				A6044E882EDF560F009D3C5F /* README.md */,
+				A601FBE22EDC6A11001B86C4 /* InternetSpeedTest */,
+				A601FBF02EDC6A12001B86C4 /* InternetSpeedTestTests */,
+				A601FBFA2EDC6A12001B86C4 /* InternetSpeedTestUITests */,
+				A601FBE12EDC6A11001B86C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A601FBE12EDC6A11001B86C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A601FBE02EDC6A11001B86C4 /* InternetSpeedTest.app */,
+				A601FBED2EDC6A12001B86C4 /* InternetSpeedTestTests.xctest */,
+				A601FBF72EDC6A12001B86C4 /* InternetSpeedTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A601FBDF2EDC6A11001B86C4 /* InternetSpeedTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A601FC012EDC6A12001B86C4 /* Build configuration list for PBXNativeTarget "InternetSpeedTest" */;
+			buildPhases = (
+				A601FBDC2EDC6A11001B86C4 /* Sources */,
+				A601FBDD2EDC6A11001B86C4 /* Frameworks */,
+				A601FBDE2EDC6A11001B86C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A601FBE22EDC6A11001B86C4 /* InternetSpeedTest */,
+			);
+			name = InternetSpeedTest;
+			packageProductDependencies = (
+			);
+			productName = InternetSpeedTest;
+			productReference = A601FBE02EDC6A11001B86C4 /* InternetSpeedTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A601FBEC2EDC6A12001B86C4 /* InternetSpeedTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A601FC042EDC6A12001B86C4 /* Build configuration list for PBXNativeTarget "InternetSpeedTestTests" */;
+			buildPhases = (
+				A601FBE92EDC6A12001B86C4 /* Sources */,
+				A601FBEA2EDC6A12001B86C4 /* Frameworks */,
+				A601FBEB2EDC6A12001B86C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A601FBEF2EDC6A12001B86C4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A601FBF02EDC6A12001B86C4 /* InternetSpeedTestTests */,
+			);
+			name = InternetSpeedTestTests;
+			packageProductDependencies = (
+			);
+			productName = InternetSpeedTestTests;
+			productReference = A601FBED2EDC6A12001B86C4 /* InternetSpeedTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A601FBF62EDC6A12001B86C4 /* InternetSpeedTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A601FC072EDC6A12001B86C4 /* Build configuration list for PBXNativeTarget "InternetSpeedTestUITests" */;
+			buildPhases = (
+				A601FBF32EDC6A12001B86C4 /* Sources */,
+				A601FBF42EDC6A12001B86C4 /* Frameworks */,
+				A601FBF52EDC6A12001B86C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A601FBF92EDC6A12001B86C4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A601FBFA2EDC6A12001B86C4 /* InternetSpeedTestUITests */,
+			);
+			name = InternetSpeedTestUITests;
+			packageProductDependencies = (
+			);
+			productName = InternetSpeedTestUITests;
+			productReference = A601FBF72EDC6A12001B86C4 /* InternetSpeedTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A601FBD82EDC6A11001B86C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A601FBDF2EDC6A11001B86C4 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					A601FBEC2EDC6A12001B86C4 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = A601FBDF2EDC6A11001B86C4;
+					};
+					A601FBF62EDC6A12001B86C4 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = A601FBDF2EDC6A11001B86C4;
+					};
+				};
+			};
+			buildConfigurationList = A601FBDB2EDC6A11001B86C4 /* Build configuration list for PBXProject "InternetSpeedTest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A601FBD72EDC6A11001B86C4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A601FBE12EDC6A11001B86C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A601FBDF2EDC6A11001B86C4 /* InternetSpeedTest */,
+				A601FBEC2EDC6A12001B86C4 /* InternetSpeedTestTests */,
+				A601FBF62EDC6A12001B86C4 /* InternetSpeedTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A601FBDE2EDC6A11001B86C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A601FBEB2EDC6A12001B86C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A601FBF52EDC6A12001B86C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A601FBDC2EDC6A11001B86C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6044E8D2EDF592C009D3C5F /* LICENSE in Sources */,
+				A6044E892EDF561A009D3C5F /* README.md in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A601FBE92EDC6A12001B86C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A601FBF32EDC6A12001B86C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A601FBEF2EDC6A12001B86C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A601FBDF2EDC6A11001B86C4 /* InternetSpeedTest */;
+			targetProxy = A601FBEE2EDC6A12001B86C4 /* PBXContainerItemProxy */;
+		};
+		A601FBF92EDC6A12001B86C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A601FBDF2EDC6A11001B86C4 /* InternetSpeedTest */;
+			targetProxy = A601FBF82EDC6A12001B86C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A601FBFF2EDC6A12001B86C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CVG7656A3Z;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A601FC002EDC6A12001B86C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = CVG7656A3Z;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A601FC022EDC6A12001B86C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVG7656A3Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Speed Test";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jin-Mach.InternetSpeedTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A601FC032EDC6A12001B86C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVG7656A3Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Speed Test";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jin-Mach.InternetSpeedTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A601FC052EDC6A12001B86C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVG7656A3Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jin-Mach.InternetSpeedTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InternetSpeedTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InternetSpeedTest";
+			};
+			name = Debug;
+		};
+		A601FC062EDC6A12001B86C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVG7656A3Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jin-Mach.InternetSpeedTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InternetSpeedTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InternetSpeedTest";
+			};
+			name = Release;
+		};
+		A601FC082EDC6A12001B86C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVG7656A3Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jin-Mach.InternetSpeedTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InternetSpeedTest;
+			};
+			name = Debug;
+		};
+		A601FC092EDC6A12001B86C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVG7656A3Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jin-Mach.InternetSpeedTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InternetSpeedTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A601FBDB2EDC6A11001B86C4 /* Build configuration list for PBXProject "InternetSpeedTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A601FBFF2EDC6A12001B86C4 /* Debug */,
+				A601FC002EDC6A12001B86C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A601FC012EDC6A12001B86C4 /* Build configuration list for PBXNativeTarget "InternetSpeedTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A601FC022EDC6A12001B86C4 /* Debug */,
+				A601FC032EDC6A12001B86C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A601FC042EDC6A12001B86C4 /* Build configuration list for PBXNativeTarget "InternetSpeedTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A601FC052EDC6A12001B86C4 /* Debug */,
+				A601FC062EDC6A12001B86C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A601FC072EDC6A12001B86C4 /* Build configuration list for PBXNativeTarget "InternetSpeedTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A601FC082EDC6A12001B86C4 /* Debug */,
+				A601FC092EDC6A12001B86C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A601FBD82EDC6A11001B86C4 /* Project object */;
+}
