@@ -17,3 +17,5 @@ A simple **iOS SwiftUI app** to measure your internet download speed.
 - The app stores results locally on the device.
 - Test file is downloaded from the internet each time you run the test.
 - **iOS only** – not compatible with macOS or other platforms.
+
+*This is a test update to check GitHub integration.*
